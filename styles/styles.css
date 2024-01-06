@@ -72,7 +72,7 @@
 
 /* My failures of previous year */
 
-.woman-pic{
+.woman-pic {
 
     margin: 140px 0 0 420px;
 }
@@ -117,19 +117,36 @@ section li {
     /* 162.5% */
     margin: 16px 0 0 230px;
 }
+
 ul {
     list-style: none;
-  }
-  
-  ul li:before {
+}
+
+ul li:before {
     content: '✓';
-    color: #16D887;    
+    color: #16D887;
 }
 
 /* My Plans Section */
 
-.my-plans{
+.plan-title {
+    color: var(--Dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.my-plans {
     display: flex;
-    justify-content: space-between;
-    margin: 430px 230px 0 530px ;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    /* margin: 430px 230px 0 330px ; */
+}
+
+.my-plans img{
+    /* align-items: center;    */
 }
